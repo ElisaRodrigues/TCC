@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="semantic/semantic.min.css">
+</head>
+<body>
+
+    <form class="ui form">
+        <h4 class="ui dividing header">Cadastro</h4>
+        <!--Nome & Sobrenome-->
+        <div class="field">
+            <label>Name</label>
+            <div class="two fields">
+                <div class="field">
+                    <input type="text" name="shipping[first-name]" placeholder="Nome">
+                </div>
+                <div class="field">
+                    <input type="text" name="shipping[last-name]" placeholder="Sobrenome">
+                </div>
+            </div>
+        </div>
+        <!--EMAIL-->
+        <div class="field">
+            <label>Email</label>
+            <div class="fields">
+                <div class="twelve wide field">
+                    <input type="text" name="shipping[address]" placeholder="Email">
+                </div>
+            </div>
+        </div>
+        <!--SENHA & Confimirmação de senha-->
+        <div class="field">
+            <label>Senha</label>
+            <div class="two fields">
+                <div class="field">
+                    <input type="password" placeholder="Senha">
+                </div>
+                <div class="field">
+                    <input type="password" placeholder="Confirmação de Senha">
+                </div>
+            </div>
+        </div>
+        <!--Continuar como:-->
+        <div class="field">
+            <label>Continuar Como:</label>
+            <div class="two fields">
+                <button class="ui black basic button"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Profissional</font></font></button>
+                <button class="ui black basic button"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cliente</font></font></button>
+            </div>
+        </div>
+
+        <div class="ui submit button">Submit</div>
+        </div>
+
+</body>
+</html>
