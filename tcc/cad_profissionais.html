@@ -16,6 +16,7 @@
                     <label>Pessoa Física</label>
                     <input type="text" placeholder="CPF">
                 </div>
+
                 <div class="field">
                     <label>Pessoa Jurídica</label>
                     <input type="text" placeholder="CNPJ">
@@ -23,25 +24,119 @@
                     <input type="text" placeholder="Nome Fantasia">
                 </div>
             </div>
+        </div>
 
-            <div class="two fields">
+        <br>
+
+        <div class="two fields">
+            <div class="field">
+                <label>Área de Atuação</label>
+                <select class="ui fluid dropdown">
+                    <option value="">Selecione sua Área de Serviço</option>
+                    <option value="AL">DJ</option>
+                    <option value="AK">Cozinha</option>
+                    <option value="AZ">Jardim</option>
+                    <option value="AR">Iluminação</option>
+                    <option value="CA">Som</option>
+                    <option value="CO">Fotófrafo</option>
+                    <option value="CT">Decorador</option>
+                    <option value="DE">Garçon</option>
+                    <option value="DC">Faxineira</option>
+                    <option value="DC">OUTRO...</option>
+                </select>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="ui form">
+            <div class="fields">
                 <div class="field">
-                    <label>Área de Atuação</label>
-                    <select class="ui fluid dropdown">
-                        <option value="">Selecione sua Área de Serviço</option>
-                        <option value="AL">DJ</option>
-                        <option value="AK">Cozinha</option>
-                        <option value="AZ">Jardim</option>
-                        <option value="AR">Iluminação</option>
-                        <option value="CA">Som</option>
-                        <option value="CO">Fotófrafo</option>
-                        <option value="CT">Decorador</option>
-                        <option value="DE">Garçon</option>
-                        <option value="DC">Faxineira</option>
-                        <option value="DC">OUTRO...</option>
-
-                    </select>
+                    <label>Telefone</label>
+                    <input type="tel" placeholder="Telefone">
                 </div>
 
+                <div class="field">
+                    <label>Endereço</label>
+                    <input type="text" placeholder="Endereço">
+
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="ui form">
+            <div class="fields">
+                <div class="field">
+                    <label>Disponibilidade para Atendimento</label>
+
+                    <div class="ui checkbox">
+                        <input type="checkbox" name="seg">
+                        <label>Segunda</label>
+                    </div>
+
+                    <div class="ui checkbox">
+                        <input type="checkbox" name="ter">
+                        <label>Terça</label>
+                    </div>
+
+                    <div class="ui checkbox">
+                        <input type="checkbox" name="qua">
+                        <label>Quarta</label>
+                    </div>
+
+                    <div class="ui checkbox">
+                        <input type="checkbox" name="qui">
+                            <label>Quinta</label>
+                    </div>
+
+                    <div class="ui checkbox">
+                        <input type="checkbox" name="sex">
+                        <label>Sexta</label>
+                    </div>
+
+                    <div class="ui checkbox">
+                        <input type="checkbox" name="sab">
+                        <label>Sábado</label>
+                    </div>
+
+                    <div class="ui checkbox">
+                        <input type="checkbox" name="dom">
+                        <label>Domingo</label>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="ui form">
+            <div class="fields">
+                <div class="field">
+                    <label>Adicionar Fotos ao Perfil</label>
+                    <img class="disabled medium ui image" src="img/mais.jpg">
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="ui form">
+            <div class="field">
+                <label>Text</label>
+                <textarea></textarea>
+            </div>
+        </div>
+
+        <br> <br>
+        
+       <center>
+           <div class="ui submit button">Submit</div>
+           </div>
+       </center>
+
+    </form>
 </body>
 </html>
